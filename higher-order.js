@@ -93,9 +93,7 @@ const monstersInYourPocket = [{"monster":"Bulbabunny","CP":156},{"monster":"Bulb
   Use the filter method to return only the monsters that have a CP of over 200.
 */
 
-//Code Here
-let myStrongest // = monstersInYourPocket.filter(/* Provide Your Callback Here */)
-
+let myStrongest = monstersInYourPocket.filter(e => e.CP > 200)
 
 
 ////////// PROBLEM 5 //////////
